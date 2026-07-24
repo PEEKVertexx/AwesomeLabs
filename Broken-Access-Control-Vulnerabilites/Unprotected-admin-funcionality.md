@@ -98,4 +98,4 @@ It is **not** a security mechanism and should never be used to protect sensitive
 - https://hackerone.com/reports/350432
 - https://hackerone.com/reports/1801427
 - https://www.anvilsecure.com/blog/vulnerabilities-in-homepage-dashboard.html
-https://www.traceable.ai/blog-post/how-1-exposed-honeywell-api-gave-us-control-over-an-internal-engineering-system
+- https://www.traceable.ai/blog-post/how-1-exposed-honeywell-api-gave-us-control-over-an-internal-engineering-system
