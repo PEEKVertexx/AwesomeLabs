@@ -87,16 +87,16 @@ After discovering the URL, I could access the admin panel directly without being
 
 ## References
 
-* PortSwigger — Information Disclosure
-* GeeksforGeeks — Authentication vs Authorization
-* Medium — Security Through Obscurity
-* Simunai Infosec — Privilege Escalation Testing
+* [PortSwigger — Information Disclosure](https://portswigger.net/web-security/information-disclosure)
+* [GeeksforGeeks — Authentication vs Authorization](https://www.geeksforgeeks.org/computer-networks/difference-between-authentication-and-authorization/)
+* [Medium — Security Through Obscurity](https://medium.com/@amiras2613/security-through-obscurity-5eac99e4cf0e)
+* [Simunai Infosec — Privilege Escalation Testing](https://www.simunainfosec.com/blog/zh-privilege-escalation-testing/)
 
 ## Public Write-ups
 
-* Infosec Write-ups — JS Analysis Leads to Information Disclosure
-* Infosec Write-ups — JavaScript Secret Hunting
-* Infosec Write-ups — From JS File to Jailbreak
+* [Infosec Write-ups — JS Analysis Leads to Information Disclosure](https://infosecwriteups.com/js-analysis-leads-to-information-disclosure-49c492728bfe)
+* [Infosec Write-ups — JavaScript Secret Hunting](https://infosecwriteups.com/javascript-secret-hunting-11-methods-bug-bounty-hunters-use-to-extract-hidden-treasures-6950df4cc42e)
+* [Infosec Write-ups — From JS File to Jailbreak](https://infosecwriteups.com/from-js-file-to-jailbreak-how-frontend-code-gave-me-backend-access-5b4974d06b63)
 
 ## Personal Notes
 
