@@ -1,21 +1,21 @@
 # Lab Name
 Unprotected Admin Functionality
 
-# Goal
+## Goal
 Solve the lab by deleting the user **carlos** through an exposed admin panel.
 
-# Vulnerability
+## Vulnerability
 - Broken Access Control
 - Vertical Privilege Escalation
 - Information Disclosure (`robots.txt`)
 
-# Theory
+## Theory
 This lab demonstrates how information disclosure can expose sensitive functionality. If administrative endpoints are publicly discoverable and authorization checks are missing, an attacker may gain access to privileged functionality, resulting in vertical privilege escalation.
 
-# Environment
+## Environment
 A vulnerable shopping application provided by PortSwigger.
 
-# Enumeration
+## Enumeration
 
 I started by checking common publicly accessible files that often reveal useful information during reconnaissance.
 
@@ -40,7 +40,7 @@ Disallow: /administrator-panel
 
 Although this file only tells search engine crawlers which paths they should avoid, it is publicly accessible to everyone. As a result, it unintentionally revealed the location of the admin panel.
 
-# Exploitation
+## Exploitation
 
 I visited the exposed endpoint:
 
@@ -52,25 +52,25 @@ The page was accessible without any authentication or authorization checks.
 
 From there, I deleted the user **carlos**. The delete action was also performed without authorization, successfully solving the lab.
 
-# Impact
+## Impact
 An attacker can access administrative functionality without proper authorization and perform privileged actions, such as deleting users or modifying sensitive data.
 
-# Why It Worked
+## Why It Worked
 The server failed to enforce authorization checks before granting access to administrative functionality.
 
 Additionally, the application exposed the admin endpoint through a public `robots.txt` file. Although `robots.txt` is intended for search engine crawlers, it should never be considered a security mechanism because anyone can access it.
 
-# Common Mistakes
+## Common Mistakes
 - Missing authorization checks on administrative functionality.
 - Exposing sensitive endpoints through publicly accessible files.
 - Relying on obscurity instead of proper access control.
 
-# Defenses
+## Defenses
 - Enforce authorization checks on every privileged endpoint.
 - Never rely on `robots.txt` to hide sensitive resources.
 - Regularly review publicly accessible files for unintended information disclosure.
 
-# References
+## References
 - https://portswigger.net/web-security/information-disclosure
 - https://www.fortinet.com/resources/cyberglossary/authentication-vs-authorization
 - https://www.seerinteractive.com/insights/how-to-read-robots-txt
@@ -93,7 +93,7 @@ Information Disclosure occurs when an application unintentionally exposes inform
 
 It is **not** a security mechanism and should never be used to protect sensitive resources.
 
-# Public Write-ups
+## Public Write-ups
 
 - https://hackerone.com/reports/350432
 - https://hackerone.com/reports/1801427
