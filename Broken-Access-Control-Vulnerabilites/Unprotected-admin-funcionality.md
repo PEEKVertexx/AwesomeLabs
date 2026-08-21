@@ -40,7 +40,7 @@ Disallow: /administrator-panel
 
 Although this file only tells search engine crawlers which paths they should avoid, it is publicly accessible to everyone. As a result, it unintentionally revealed the location of the admin panel.
 
-## Exploitation
+## Exploitation steps
 
 I visited the exposed endpoint:
 
