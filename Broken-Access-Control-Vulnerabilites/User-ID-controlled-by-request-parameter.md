@@ -112,3 +112,7 @@ Developer/Backend assumed that I'm only going to access my own data through keep
 ### What's Horizontal Privilege Escalation?
 
 - **Horizontal Privilege Escalation** occurs when a user accesses the resources or actions of a peer at the same privilege level
+
+### What's Insecure Direct Object Reference (IDOR)?
+
+- **Insecure Direct Object Reference (IDOR)** is a type of access control vulnerability that arises when an application uses user-supplied input to access objects directly.
