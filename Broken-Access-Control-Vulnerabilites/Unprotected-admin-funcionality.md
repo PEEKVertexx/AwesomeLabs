@@ -1,5 +1,4 @@
-# Lab Name
-Unprotected Admin Functionality
+# Unprotected Admin Functionality
 
 ## Goal
 Solve the lab by deleting the user **carlos** through an exposed admin panel.
