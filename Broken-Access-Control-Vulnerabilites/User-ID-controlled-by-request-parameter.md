@@ -115,4 +115,4 @@ Developer/Backend assumed that I'm only going to access my own data through keep
 
 ### What's Insecure Direct Object Reference (IDOR)?
 
-- **Insecure Direct Object Reference (IDOR)** is a type of access control vulnerability that arises when an application uses user-supplied input to access objects directly.
+- **Insecure Direct Object Reference (IDOR)** is an access-control vulnerability that occurs when an application uses user-controlled input to reference objects without properly enforcing server-side authorization for the requested object.
